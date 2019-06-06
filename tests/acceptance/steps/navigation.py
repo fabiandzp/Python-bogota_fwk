@@ -6,7 +6,7 @@ chrome_options.add_argument('headless')
 
 use_step_matcher('re') #maps the steps to diferents variables
 
-base_url = 'https://qa-btn-app.herokuapp.com'
+base_url = 'https://btn-qa-app2.herokuapp.com'
 #base_url = 'http://127.0.0.1:5000'
 
 @given('I am on the homepage')
